@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "pobject"
-version = "0.1.1"
-description = ""
+version = "0.1.2"
+description = "pobject"
 authors = ["Eyal Levin <eyalev@gmail.com>"]
 readme = "README.md"
 
