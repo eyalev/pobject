@@ -1,8 +1,8 @@
 from pathlib import Path
 import yaml
 
-class File:
 
+class File:
     def __init__(self, path):
         self._path = path
 
@@ -20,7 +20,7 @@ class File:
 
     @property
     def is_yaml(self):
-        return '.yaml' in self.path
+        return ".yaml" in self.path
 
     def to_dict(self):
         if self.is_yaml:

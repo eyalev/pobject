@@ -1,5 +1,6 @@
-from pobject import __version__
+from pobject import P
+from pobject import I
 
 
-def test_version():
-    assert __version__ == '0.1.0'
+def test_to_json_string():
+    assert I({}).to_json_string() == "{}"
