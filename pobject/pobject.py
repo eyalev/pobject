@@ -1,5 +1,7 @@
 import json
 
+from is_url import is_url
+
 from .file import File
 
 
@@ -21,6 +23,10 @@ class P:
         :rtype: pobject.file.File
         """
         return File(self.input)
+
+    @property
+    def is_url(self):
+        return is_url(self.input)
 
     @property
     def is_file_path(self):
